@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchit Gupta - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <link rel="icon" href="static/assets/images/favicon.ico" type="image/x-icon">
+    </head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Sanchit Gupta</h1>
+            <p>Backend Developer & Systems Architect</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/Moretti-Fool" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sanchitg534" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://lorehub.hashnode.dev/" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-blog"></i>
+                </a>
+                <a href="mailto:sanchitgupta534@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="static/files/resume.pdf" download class="resume-download">
+                    <i class="fas fa-file-download"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="personal-intro">
+                <p class="tagline">👋 Hi there! I'm a developer who believes in building technology that serves people first</p>
+                
+                <div class="human-elements">
+                    <div class="passion">
+                        <i class="fas fa-heart"></i>
+                        <h3>Beyond the Code</h3>
+                        <p>When I'm not architecting backend systems, you'll find me:</p>
+                        <ul>
+                            <li>📖 Curling up with Fantasy & Mystery novels (currently reading <em>Lord of the Mysteries</em>)</li>
+                            <li>🎮 Playing video games with friends</li>
+                            <li>☕ Hosting coffee cuppings for friends</li>
+                        </ul>
+                    </div>
+
+                    <div class="coding-philosophy">
+                        <i class="fas fa-code"></i>
+                        <h3>Development Approach</h3>
+                        <p>I create software with:</p>
+                        <ul>
+                            <li>🧠 Maintainability as the priority</li>
+                            <li>🤝 Collaborative principles</li>
+                            <li>📈 Scalability from day one</li>
+                            <li>🔒 Security baked into every layer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="professional-summary">
+                <div class="core-skills">
+                    <h3><i class="fas fa-tools"></i> Technical Toolkit</h3>
+                    <div class="skill-badges">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                        <span>Docker</span>
+                        <span>CI/CD</span>
+                        <span>REST APIs</span>
+                        <span>Microservices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Guru Gobind Singh Indraprastha University, Delhi</h3>
+            <p class="date">2021 – Present</p>
+            <p>B.Tech in Electronics and Communications Engineering<br>CGPA: 8.228 (Ongoing)</p>
+        </div>
+        <div class="education-item">
+            <h3>Lovely Public Senior Secondary School, Delhi</h3>
+            <p class="date">2017-2021</p>
+            <p>Senior Secondary Education (CBSE)</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Resource Garbage Management System</h3>
+                <p>Python, FastAPI, PostgreSQL, Redis, Docker, Celery, Railway</p>
+                <div class="project-links">
+                    <a href="https://resourcemanager-production.up.railway.app/" class="project-link railway-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Live Demo
+                    </a>
+                </div>
+                <ul class="project-details">
+                    <li>Developed async file expiration using Redis Streams/TTL</li>
+                    <li>Implemented JWT auth with Redis sessions (500+ users)</li>
+                    <li>Automated migrations via Alembic; containerized with Docker</li>
+                    <li>Deployed on Railway with auto-scaling (1K+ reqs/day)</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Multi-Tenant SaaS Platform</h3>
+                <p>Python, FastAPI, PostgreSQL, Docker, Render, Google OAuth2</p>
+                <div class="project-links">
+                    <a href="https://multi-tenant-saas-api.onrender.com/" class="project-link render-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Live Demo
+                    </a>
+                </div>
+                <ul class="project-details">
+                    <li>Engineered secure multi-tenant system using PostgreSQL schemas</li>
+                    <li>Implemented JWT/Google OAuth2 with RBAC</li>
+                    <li>Automated Alembic migrations; Docker deployment on Render</li>
+                    <li>Enhanced security with SMTP verification/SSL-TLS</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Social Media API</h3>
+                <p>Python, FastAPI, PostgreSQL, Docker, GitHub Actions</p>
+                <div class="project-links">
+                    <a href="https://social-api-yypr.onrender.com/" class="project-link render-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Live Demo
+                    </a>
+                </div>
+                <ul class="project-details">
+                    <li>Developed REST API with CRUD operations and pagination</li>
+                    <li>Containerized application using Docker</li>
+                    <li>Achieved 40+ test cases with Pytest</li>
+                    <li>Configured CI/CD pipeline using GitHub Actions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Location</h4>
+                    <p>Delhi, India</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>sanchitgupta534@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+91 83840 6207</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fas fa-file-alt"></i>
+                <div>
+                    <h4>Resume</h4>
+                    <a href="static/files/resume.pdf" download>Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
